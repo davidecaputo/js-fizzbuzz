@@ -1,0 +1,18 @@
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(7, 76, 224);
+    cursor: pointer;
+}
+
+.square-red{
+    background-color: rgb(237, 30, 30);
+}
+
+.square-orange{
+    background-color: rgb(246, 122, 32);
+}
+
+.square-green{
+    background-color: rgb(66, 182, 73);
+}
