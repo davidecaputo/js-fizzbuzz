@@ -1,8 +1,10 @@
 .square{
     width: 100px;
     height: 100px;
+    border-radius: 50%;
     background-color: rgb(7, 76, 224);
     cursor: pointer;
+    font-size: 20px;
 }
 
 .square-red{
@@ -15,4 +17,8 @@
 
 .square-green{
     background-color: rgb(66, 182, 73);
+}
+
+.square:hover{
+    opacity: 0.6;
 }

@@ -12,22 +12,22 @@ for(i = 1; i <= 100; i++){
     if(i % 3 === 0 && i % 5 === 0){
         console.log('FizzBuzz');
         container.innerHTML += `
-            <div class="square square-green text-white d-flex justify-content-center align-items-center fs-5">FizzBuzz</div>
+            <div class="square square-green text-white d-flex justify-content-center align-items-center">FizzBuzz</div>
         `
     } else if(i % 3 === 0) {
         console.log('Fizz');
         container.innerHTML += `
-            <div class="square text-white square-red d-flex justify-content-center align-items-center fs-5">Fizz</div>
+            <div class="square text-white square-red d-flex justify-content-center align-items-center">Fizz</div>
         `
     } else if(i % 5 === 0) {
         console.log('Buzz');
         container.innerHTML += `
-            <div class="square text-white square-orange d-flex justify-content-center align-items-center fs-5">Buzz</div>
+            <div class="square text-white square-orange d-flex justify-content-center align-items-center">Buzz</div>
         `
     } else {
         console.log(i);
         container.innerHTML += `
-            <div class="square text-white d-flex justify-content-center align-items-center fs-5">${i}</div>
+            <div class="square text-white d-flex justify-content-center align-items-center">${i}</div>
         `
     }
 };
